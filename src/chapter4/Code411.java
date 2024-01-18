@@ -9,10 +9,10 @@ public class Code411 {
 			if (scores[i] >= 50) {
 				count++;
 			}
-			// if文を使い、条件に合致する要素があればカウントする
 		}
 		System.out.println("50点以上の科目の数は" + count);
-
 	}
 
 }
+
+// if(scores[i] >= 50)とcount++にて、条件に合致する要素があればカウントする
