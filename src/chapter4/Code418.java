@@ -3,7 +3,7 @@ package chapter4;
 public class Code418 {
 
 	public static void main(String[] args) {
-		int [][] scores = new int[2][3];
+		int[][] scores = new int[2][3]; // 2行3列の配列
 		scores[0][0] = 40;
 		scores[0][1] = 50;
 		scores[0][2] = 60;
