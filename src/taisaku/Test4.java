@@ -16,7 +16,7 @@ public class Test4 {
 		for (int i = 0; i <= 10; i++) {
 			if (num[i] % 2 != 0) {
 				System.out.print(num[i]);
-				if (i < 10) {
+				if (i < 10-1) {
 					System.out.print(",");
 				}
 			}
@@ -28,7 +28,7 @@ public class Test4 {
 		for (int i = 11; i <= 19; i++) {
 			if (num[i] % 2 == 0) {
 				System.out.print(num[i]);
-				if (i < 19) {
+				if (i < 19-1) {
 					System.out.print(",");
 				}
 			}
