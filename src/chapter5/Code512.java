@@ -16,4 +16,3 @@ public class Code512 {
 	}
 
 }
-// (int[] array)の部分にて引数に配列型を指定
