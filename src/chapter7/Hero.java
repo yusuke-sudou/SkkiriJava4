@@ -10,9 +10,11 @@ public class Hero {
 		System.out.println(this.name + "は、眠って回復した！"); // this.nameは自分自身のnameフィールド
 	}
 	
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	// 座る操作
+	public void sit(int sec) { // (int sec)で何秒座るか引数で受け取る
+		this.hp += sec; // 座る秒数だけHPを回復
+		System.out.println(this.name + "は、" + sec + "秒座った！");
+		System.out.println("HPが" + sec + "ポイント回復した！");
 	}
 
 }
