@@ -1,5 +1,7 @@
 package chapter1011;
 
+import chapter7.Matango;
+
 public class SuperHero extends Hero {
 	boolean flying;
 	public void fly() {
@@ -13,6 +15,11 @@ public class SuperHero extends Hero {
 	public void run() {
 		System.out.println(this.name + "は撤退した");
 	}
-	
+	public void attack(Matango m) {
+		super.attack(m);
+		if(this.flying) {
+			super.attack(m);
+		}
+	}
 
 }
