@@ -21,5 +21,9 @@ public class SuperHero extends Hero {
 			super.attack(m);
 		}
 	}
+	public SuperHero() {
+		super();
+		System.out.println("SuperHeroのコンストラクタが動作");
+	}
 
 }
